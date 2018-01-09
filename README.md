@@ -67,3 +67,10 @@ You can set input table in keboola extractor settings. Table is uploaded as csv 
 
 <img src="example-keboola.png">
 
+The resulting JSON POST to crawler looks like:
+
+{
+  "mode": "recheck",
+  "storeId": "some_store_id_...",
+  "key": "key_containing_uploaded_csv"
+ }
