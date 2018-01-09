@@ -23,7 +23,9 @@ general settings:
 
 optional settings:
 - contain optional parameters in address objects:
+
 ```"cutoff_date"``` -> it scrapes all reviews to the Past before reachng this date - if date is not set -> searching all reviews
+
 ```"id"``` -> can be used for your needs, returned after page is scraped - returned as ```"ext_id"```
 
 ```java
@@ -35,6 +37,7 @@ optional settings:
 
 <b>"normal"</b>
 This setting requires to set at least additional ```"locations"``` parameter which contains list of START URLS. It will then listing all possible restaurants visible in these locations and it will extract all possible reviews and informations.
+
 ```java
 {
   "mode": "normal",
@@ -44,6 +47,7 @@ This setting requires to set at least additional ```"locations"``` parameter whi
 
 <b>"get_urls_only"</b>
 This setting requires to set at least additional "locations" parameter which contains list of START URLS. It will then listing all possible restaurants in these locations and return their urls.
+
 ```java
 {
   "mode": "get_urls_only",
@@ -53,6 +57,7 @@ This setting requires to set at least additional "locations" parameter which con
 
 # Disable pagination in reviews
 Optional parameter used for !switching off pagination! at reviews. It will override default settings of any mode.
+
 ```java
 {"pagination": false}
 ```
