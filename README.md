@@ -2,8 +2,8 @@
 
 # About
 <p>Apify crawlers with unified input and settings for monitoring of reviews. </p>
-<p>You can set behavior and wait for results.</p>
-<p>Settings must be placed to "customData" of our crawler as JSON object.</p>
+<p>You can set behavior and then wait for results.</p>
+<p>Settings must be placed to crawler´s ```"customData"``` as JSON object.</p>
 
 # Modes
 
