@@ -11,7 +11,7 @@ Settings must be placed to crawler´s ```"customData"``` as JSON object.
 {"mode": <mode>}
 ```
 <b>"recheck"</b>
-This setting requires to set at least additional ```"url_list"``` parameter(exception for keboola extractor where is possible to import table) which contains list of objects containing at least ```"URL"``` parameter with url of restaurant.
+This setting requires to set at least additional ```"url_list"``` parameter(except keboola extractor where is possible to import table) which contains list of objects containing at least ```"URL"``` parameter with url of restaurant.
 
 general settings:
 ```java
