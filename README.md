@@ -54,6 +54,7 @@ This setting requires to set at least additional "locations" parameter which con
   "locations": ["https://www.tripadvisor.com/Restaurants-g186338-London_England.html"]
 }
 ```
+Data gotten from this mode needs to be deduplicated.
 
 # Disable pagination in reviews
 Optional parameter used for <b>switching off pagination</b> at reviews. It will override default settings of any mode.
