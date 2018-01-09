@@ -69,8 +69,10 @@ You can set input table in keboola extractor settings. Table is uploaded as csv 
 
 The resulting JSON POST to crawler looks like:
 
+```java
 {
   "mode": "recheck",
   "storeId": "some_store_id_...",
   "key": "key_containing_uploaded_csv"
- }
+}
+ ```
