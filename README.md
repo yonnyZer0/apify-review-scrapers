@@ -34,7 +34,6 @@ optional settings:
   "url_list": [{"URL": "https://www.tripadvisor.com/Restaurant_Review-g186338-d814048-Reviews-Carluccios_St_Christophers_Place-London_England.html", "cutoff_date": "2017-12-9", "id": "any_your_string"}]
 }
 ```
-<a href="https://www.apify.com/docs/api/v2#/reference/key-value-store/record/get-record">How to get record from apify kvstore?</a>
 
 <b>"normal"</b>
 This setting requires to set at least additional ```"locations"``` parameter which contains list of START URLS. It will then listing all possible restaurants visible in these locations and it will extract all possible reviews and informations.
@@ -77,4 +76,4 @@ The resulting JSON POST to crawler looks like:
   "key": "key_containing_uploaded_csv"
 }
  ```
-how to get recored from kvstore? https://www.apify.com/docs/api/v2#/reference/key-value-store/record/get-record
+<a href="https://www.apify.com/docs/api/v2#/reference/key-value-store/record/get-record">How to get record from apify kvstore?</a>
