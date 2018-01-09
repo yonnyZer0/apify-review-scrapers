@@ -31,7 +31,7 @@ optional settings:
 ```java
 {
   "mode": "recheck",
-  "url_list": [{"URL": "https://www.tripadvisor.com/Restaurant_Review-g186338-d814048-Reviews-Carluccios_St_Christophers_Place-London_England.html", "cutoff_date": "2017-12-9", "id": "any string"}]
+  "url_list": [{"URL": "https://www.tripadvisor.com/Restaurant_Review-g186338-d814048-Reviews-Carluccios_St_Christophers_Place-London_England.html", "cutoff_date": "2017-12-9", "id": "any_your_string"}]
 }
 ```
 
@@ -62,5 +62,5 @@ Optional parameter used for <b>switching off pagination</b> at reviews. It will 
 {"pagination": false}
 ```
 
-# Keboola - import data from table
+# Keboola - importing data directly from table
 
