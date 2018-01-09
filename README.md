@@ -56,7 +56,7 @@ This setting requires to set at least additional "locations" parameter which con
 ```
 
 # Disable pagination in reviews
-Optional parameter used for <b>switching off pagination</p> at reviews. It will override default settings of any mode.
+Optional parameter used for <b>switching off pagination</b> at reviews. It will override default settings of any mode.
 
 ```java
 {"pagination": false}
