@@ -76,4 +76,5 @@ The resulting JSON POST to crawler looks like:
   "key": "key_containing_uploaded_csv"
 }
  ```
+sample of input table optimized for Yelp, TripAdvisor crawlers: 
 <a href="https://www.apify.com/docs/api/v2#/reference/key-value-store/record/get-record">How to get record from apify kvstore?</a>
