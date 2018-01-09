@@ -24,7 +24,7 @@ general settings:
 optional settings:
 - contain optional parameters in address objects:
 
-```"cutoff_date"``` -> it scrapes all reviews to the Past before reachng this date - if date is not set -> searching all reviews
+```"cutoff_date"``` -> it scrapes all reviews to the Past before reaching this date - if date is not set -> searching all reviews
 
 ```"id"``` -> can be used for your needs, returned after page is scraped - returned as ```"ext_id"```
 
