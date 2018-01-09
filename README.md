@@ -63,4 +63,7 @@ Optional parameter used for <b>switching off pagination</b> at reviews. It will 
 ```
 
 # Keboola - importing data directly from table
+You can set input table in keboola extractor settings. Table is uploaded as csv to key-value-store at your apify account and parameters ```storeId``` and ```key``` are merged to customData JSON object.
+
+[[exmaple-keboola.png]]
 
